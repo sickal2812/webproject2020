@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html>
+ <head> 
+ <title></title> 
+ <script type="text/javascript"> 
+ var imgArray=new Array(); 
+ imgArray[0]="01.jpg"; 
+ imgArray[1]="04.jpg"; 
+ imgArray[2]="03.jpg"; 
+ imgArray[3]="05.jpg"; 
+ 
+ function showImage(){ 
+     var imgNum=Math.round(Math.random()*3); 
+     var objImg=document.getElementById("introimg"); 
+     objImg.src=imgArray[imgNum]; 
+     setTimeout(showImage,5000); 
+     } 
+     
+ </script> 
+ </head> 
+ 
+ <body onload="showImage()">
+  <img id="introimg" border="0"> 
+  </body> 
+</html>
+

@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript"> 
+			var imgArray=new Array(); 
+			imgArray[0]="01.jpg"; 
+			imgArray[1]="05.jpg"; 
+			imgArray[2]="03.jpg"; 
+			imgArray[3]="04.jpg"; 
+			
+			function showImage() { 
+				var imgNum=Math.round(Math.random()*3); 
+				var objImg=document.getElementById("introimg"); 
+				objImg.src=imgArray[imgNum]; 
+				setTimeout(showImage,5000); 
+			}
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css?3" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css?" /></noscript>
+		<style>
+			li {
+			  display: inline;
+			  padding: 0px;
+			  align-content: center;
+			}
+			a {
+			  text-decoration:none
+			}
+		</style>
+
+	</head>
+
+	<body class="is-preload">
+		<ul>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li class="current"><a href="login.html">login</a></li>
+			<li class="current"><a href="create.html">Register</a></li>
+			<li class="current"><a href="qna.html">Q&A</a></li>
+			<li class="current"><a href="quiz.html">Quiz</a></li>
+			<li class="current"><a href="maps.html">찾아오는길</a></li>
+		</ul>
+		
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<iframe width=80% height="300px" src="https://www.youtube.com/embed/NkUA2mfdFOk?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<br>
+							<br>
+							<h1>안녕하세요. </h1>
+							<p> 정성으로 가르치는 송은기 수학 교습소입니다. </p>
+						</div>
+						<div class="image">
+							<p onload="showImage()">
+								<img id="introimg" border="0">
+							</p>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>송은기 강사입니다.</h2>
+							<p> 종로학원 1997~2000 / 
+								스탠퍼드 학원 2000~2004 / 
+								수학전문 대림학원 2004~2013 /
+								메이저학원 2013~2015</p> <br>
+							<p> 현재교습소 2015~ing </p>
+						</div>
+						<div class="image1">
+							<img src="images/new/02.jpg" width="400" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2> 많은 아이들을</h2>
+							<h2> 가르쳐온 노하우로 </h2>
+							<p> 올바름 배움을 주고 있습니다.
+							</p>
+
+						</div>
+						<div class="image">
+							<img src="images/new/03.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Five -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2> 아이가 수학에 흥미가 없어 </h2>
+							<h2> 걱정이신가요? </h2>
+							<p> 단계별로 흥미를 가질 수 있도록 지도하고 있습니다. 부담없이 전화주세요</p>
+							<br>
+							<p> 연락처 : 010-xxxx-xxxx </p>
+						</div>
+
+						<!-- Gallery -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="images/new/new/01.jpg" class="image">
+										<img src="images/new/new/01.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>수업사진</h3>
+									</div>
+								</article>
+								<article>
+									<a href="images/new/new/02.jpg" class="image">
+										<img src="images/new/new/02.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>송은기강사</h3>
+									</div>
+								</article>
+								<article>
+									<a href="images/new/new/03.jpg" class="image">
+										<img src="images/new/new/03.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>수업사진</h3>
+									</div>
+								</article>
+								<article>
+									<a href="images/new/new/04.jpg" class="image">
+										<img src="images/new/new/04.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>수업사진</h3>
+									</div>
+								</article>
+								<article>
+									<a href="images/new/new/05.jpg" class="image">
+										<img src="images/new/new/05.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>학원내부</h3>
+									</div>
+								</article>
+								<article>
+									<a href="images/new/new/06.jpg" class="image">
+										<img src="images/new/new/06.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>학원내부</h3>
+									</div>
+								</article>
+								<article>
+									<a href="images/new/new/07.jpg" class="image">
+										<img src="images/new/new/07.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>학원내부</h3>
+									</div>
+								</article>
+							</div>
+							<p2>
+								대전광역시 서구 신갈마로 8 (내동) 5층 송은기 수학 교습소
+							</p2>
+
+					</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
